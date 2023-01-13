@@ -61,7 +61,7 @@
     /* margin-right: 50px; */
  }
   
- .rate1{
+ .rate1, .rate2,.rate3{
    background: var(--light-grayish-magenta);
    padding:7px ;
    color: var(--very-dark-maginta) ;
@@ -70,9 +70,12 @@
    text-align: center;
    margin-bottom: 12px;
    border-radius: 5px;
+   width: 400px;
    
-
  }
+
+
+
 /* .one{
    background: purple;
    width: 50%;
@@ -131,18 +134,20 @@
       /* /* height: 67px; */
       }
 
-.profile-text h5{
+.profile-text h4{
   margin-top: 17px;
   font-weight: 700px;
+  width: 100px;
+  margin-bottom: 5px;
   
     /* /* height: 67px; */
     }
     
 
-.profile h5{
-width: 200px;
-margin-left: 10px;
-/* /* height: 67px; */
+.profile-text h5{
+color: var(--soft-pink);
+
+
 }
 
 
@@ -161,4 +166,5 @@ margin-left: 10px;
    align-items: center;
    justify-content: center;
    margin: 15px;
+   font-weight: 400px;
 }
