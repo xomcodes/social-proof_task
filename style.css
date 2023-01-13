@@ -1,5 +1,14 @@
  @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap'); 
 
+ :root{
+   --very-dark-maginta: hsl(300, 43%, 22%);
+   --soft-pink: hsl(333, 80%, 67%);
+   --dark-grayish-magenta: hsl(303, 10%, 53%);
+   --light-grayish-magenta: hsl(300, 24%, 96%);
+   --white: hsl(0, 0%, 100%) 
+ }
+ 
+ 
  *{
     margin: 0;
     padding: 0;
@@ -20,6 +29,7 @@
     height: 80vh;
     align-items: center;
     justify-content: center;
+    font-family: League Spartan;
     /* text-align: center; */
  }
  .left-text{
@@ -27,11 +37,17 @@
  }
 
  .left-text .heading{
-    width:200px
+    width:250px;
+    color: var(--very-dark-maginta);
+    font-family: League Spartan;
+    font-weight: 700px;
+   
  }
 
  .left-text .para1{
     width: 380px;
+    margin-top: 12px;
+    color: var(--dark-grayish-magenta);
  }
  
  .right-text{
@@ -39,3 +55,20 @@
     /* margin-right: 50px; */
  }
   
+ .rate1{
+   background: var(--light-grayish-magenta);
+   padding:7px ;
+   color: var(--very-dark-maginta) ;
+   /* font-weight: 700px; */
+   font-family: League Spartan;
+   text-align: center;
+   margin-bottom: 12px;
+   border-radius: 5px;
+   
+
+ }
+.one{
+   background: purple;
+   width: 50%;
+   display: flex;
+}
