@@ -149,10 +149,7 @@ color: var(--soft-pink);
 
 .tag{
     width: 280px;
-   text-align: center;
-   align-items: center;
-   justify-content: center;
-   margin: 15px;
+margin: 15px;
    font-weight: 400px;
 }
 
@@ -217,7 +214,24 @@ color: var(--soft-pink);
          overflow: hidden;
        }
 
-       .profile1,.profile2, .profile3{
+       /* .profile-flex{
+         width: 100%;
+       } */
+
+       /* .profile1,.profile2, .profile3{
         margin-top: 20px;
+       /* } */
+      
+      
+      .profile3{
+         margin-top: 0px;
+      }
+       .profile1{
+         margin-bottom: 0px;
+         margin-top: 10px;
+       }
+
+       .tag{
+         width: 250px;
        }
    }
