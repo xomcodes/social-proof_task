@@ -211,14 +211,15 @@ color: var(--soft-pink);
         
       }
 
-      .rate1, .rate2,.rate3{
+      .rate1,.rate2,.rate3{
          padding: 15px;
          margin-bottom: 8px;
          border-radius: 3px;
-         width: 300px;
+         width: 400px;
          font-size: 14px; 
        }
         
+
        .rate2{
          margin-left: 0px;
        }
@@ -226,12 +227,16 @@ color: var(--soft-pink);
        .rate3{
          margin-left: 0px;
        }
+
        img{
         /* width: 12px;
         margin: 3px; */
         flex-direction: column;
        }
 
+       .container{
+         overflow: hidden;
+       }
 
 
    }
