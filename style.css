@@ -15,23 +15,12 @@
     box-sizing: border-box;
  }
 
- /* .container{
-    width: 100vw;
-    height: 80vh;
-    align-items: center;
-    justify-content: center;
-    
- } */
-
- 
-
  .wrapper{
     width: 100vw;
     height: 60vh;
     align-items: center;
     justify-content: center;
     font-family: League Spartan;
-    /* text-align: center; */
  }
 
  .flex{
@@ -58,7 +47,6 @@
  
  .right-text{
     width:40%;
-    /* margin-right: 50px; */
  }
   
  .rate1, .rate2,.rate3{
@@ -93,11 +81,8 @@
 
 
  .profile-flex{
-   width: 90%;
+   width: 50%;
  }
-
-
-
 
 
 .profile1,.profile2, .profile3{
@@ -225,15 +210,12 @@ color: var(--soft-pink);
        }
 
        img{
-        /* width: 12px;
-        margin: 3px; */
         flex-direction: column;
        }
 
        .container{
          overflow: hidden;
        }
-
 
        .profile1,.profile2, .profile3{
         margin-top: 20px;
