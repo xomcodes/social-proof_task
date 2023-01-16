@@ -193,7 +193,7 @@ margin: 15px;
          padding: 15px;
          margin-bottom: 8px;
          border-radius: 3px;
-         width: 300px;
+         width: 280px;
          font-size: 14px; 
        }
         
@@ -214,21 +214,21 @@ margin: 15px;
          overflow: hidden;
        }
 
-       /* .profile-flex{
+       .profile-flex{
          width: 100%;
-       } */
+       }
 
        /* .profile1,.profile2, .profile3{
         margin-top: 20px;
        /* } */
       
       
-      .profile3{
-         margin-top: 10px;
-      }
-       .profile1{
-         margin-bottom: 10px;
-         margin-top: 10px;
+      .profile1{
+       margin-bottom: 0px;
+      } 
+
+       .profile1, .profile2,.profile3{
+         margin-top: 30px;
        }
 
        .tag{
